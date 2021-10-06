@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="p.details">
+        <form action="/action_page.php">
+            <h1>Personal Details</h1><br>
+
+            <label> Title: </label><br>
+            <select name="title">
+                <option value="Please select"></option>
+                <option value="Mr">Mr</option>
+                <option value="Ms">Ms</option>
+                <option value="Mrs">Mrs</option>
+            </select><br><br>
+
+            <label> Full Name: </label><br>
+            <input type="text" required><br><br>
+            <label> Age: </label><br>
+            <input type="number" required><br><br>
+            <label> ID Number:</label><br>
+            <input required><br><br>
+            <label> Address: </label><br>
+            <input required><br><br>
+
+            <label> Gender: </label><br>
+            <input type="radio" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label> Contact Number: </label><br>
+            <input required><br><br>
+            <label> Email address: </label><br>
+            <input><br>
+    </div>
+    <div class="kinDetails">
+
+        <h1>Next of Kin Details</h1>
+        <label> Next of Kin Full Name</label><br>
+        <input required><br><br>
+        <label> Next of Kin Contact Number </label><br>
+        <input required><br><br>
+    </div>
+
+    <button type="button" style="color: royalblue;" onclick="alert('Your form has been submitted')">Submit</button>
+    </form>
+</body>
+
+</html>
